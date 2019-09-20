@@ -51,6 +51,21 @@ function dymoLoad() {
 	dymoEnvironment();
 	dymoPrinter();
 	dymoTemplate();
+	parseUrlIntoPrintValue();
+}
+
+function parseUrlIntoPrintValue() {
+	var param1Value = getUrlParameter('param1');
+	var param2Value = getUrlParameter('param2');
+	var param3Value = getUrlParameter('param3');
+
+	document.getElementById("address-box").value =
+		param1Value +
+		'\r\n' +
+		param2Value+
+		'\r\n' +
+		param3Value;
+
 }
 
 function dymoEnvironment() {
