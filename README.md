@@ -1,4 +1,5 @@
-# print-with-dymo-labelwriter
+# Print from a Coda doc to a Dymo labelwriter
+
 A demo of printing an address label with a Dymo LabelWriter
 
 The Dymo LabelWriter provides a JavaScript framework for printing labels from a web browser to the connected printer. This demonstration is a simple browser application for printing a single shipping label. The application provides the user status information status as errors, loading, ready, printing, etc.
